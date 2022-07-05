@@ -47,8 +47,8 @@ const dropdownLinks = [
   { name: 'Projects', path: '/projects' },
   { name: 'Tech Stack', path: '/tech-stack' },
   { name: 'Open Source', path: '/open-source' },
-  { name: 'Achievements', path: '/achievements' },
-  { name: 'Changelog', path: '/changelog' }
+  { name: 'Achievements', path: '/achievements' }
+  // { name: 'Changelog', path: '/changelog' }
   // { name: "Developer Story", path: "/developer-story" }
 ];
 

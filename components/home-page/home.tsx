@@ -127,25 +127,28 @@ const Home: React.FC<BlogPostProps> = (props) => {
                   setShowEmoji(true)
                 }}
               >
-                Hey!
+                Hej!
               </Header>
             </MotionBox>
           </Box>
           <Box as="h2" fontSize="2xl" fontWeight="400" textAlign="left">
             My name is{' '}
             <Box as="strong" fontWeight="600">
-              Ahmad
+              Deepak
             </Box>{' '}
             and I&apos;m a{' '}
             <Box as="span" whiteSpace="nowrap">
               Full Stack Developer and
             </Box>{' '}
             <Box as="span" whiteSpace="nowrap">
-              an open source lover&nbsp;
+              Product Enthusiast&nbsp;
             </Box>
             from{' '}
             <Box as="span" whiteSpace="nowrap">
-              Pakistan 🇵🇰
+              India. {' '}
+            </Box>
+            <Box as="span" whiteSpace="nowrap">
+              Currently in the United Kingdom 
             </Box>
           </Box>
           <Box as="h2" fontSize="2xl" fontWeight="400" mt={5} textAlign="left">

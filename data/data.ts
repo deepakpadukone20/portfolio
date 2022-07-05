@@ -1,48 +1,76 @@
 export const companies = [
   {
-    title: 'Phaedra Solutions',
-    alt: 'PS image',
-    role: 'Senior Software Engineer',
-    skills: ['ruby', 'rails', 'typescript', 'javascript', 'react', 'aws'],
+    title: 'Visa Inc',
+    alt: 'Visa image',
+    role: 'Senior Cybersecurity Engineer',
+    skills: ["JavaScript","Angular 8","SCSS","HTML5","Python","Node.js","Flask","Scripting","Ansible","D3.js","Elastic","Jira","Balsamiq"],
     period: '2019 - Present',
-    logo: '/assets/images/logos/phaedra.jpeg'
+    logo: '/assets/images/logos/visa.png'
   },
   {
-    title: 'Brainx Technologies',
-    alt: 'BT image',
-    role: 'Software Engineer',
-    skills: ['ruby', 'rails', 'javascript', 'python'],
+    title: 'Informatica Inc',
+    alt: 'Informatica image',
+    role: 'Senior Software Engineer',
+    skills: ['Angular 10','Java', 'Apace Spark', 'JavaScript', 'React 16', 'Elastic'],
     period: '2018 - 2019',
-    logo: '/assets/images/logos/brainxtech.png'
+    logo: '/assets/images/logos/informatica.png'
   },
-  // {
-  //   title: "Codenya Studio",
-  //   alt: "CS image",
-  //   role: "Co-founder, CTO",
-  //   skills: ["ruby", "rails", "python", "typescript", "react", "aws"],
-  //   period: "2018 - Present",
-  //   logo: '/assets/images/logos/codenya.png'
-  // },
   {
-    title: 'Brainplow',
+    title: 'Ness Technologies',
     alt: 'Brainplow image',
     role: 'Software Engineer',
     skills: ['javascript', 'python', 'angular'],
     period: '2017 - 2018',
-    logo: '/assets/images/logos/brainplow.jpg'
+    logo: '/assets/images/logos/Ness.jpg'
+  },
+  {
+    title: 'Epiance',
+    alt: 'Epaince image',
+    role: 'Software Development Engineer',
+    skills: ['JavaScript', 'ASP.Net', 'jQuery'],
+    period: '2011 - 2018',
+    logo: '/assets/images/logos/Epiance.jpg'
   }
 ];
 
 export const institutes = [
   {
-    short_title: 'FAST - NUCES',
-    title: 'National University of Computer and Emerging Sciences',
-    alt: 'Nuces image',
-    role: "Bachelor's Degree in Computer Science",
-    skills: ['project management', 'web development', 'data structures'],
-    period: '2013 - 2017',
-    startingYear: '2013',
-    logo: '/assets/images/logos/fast.png',
+    short_title: 'NUBS',
+    title: 'University of Nottingham Business School',
+    alt: 'University of Nottingham',
+    role: "Master of Business Adminstration",
+    skills: ['Project Management', 'Innovation', 'Digtal','Marketing'],
+    period: '2021 - Present',
+    startingYear: '2021',
+    logo: '/assets/images/logos/UoN.png',
+    awards: [
+      {
+        title: 'Speed Programming Battle',
+        description: 'Won speed programming battle which held at FAST - NUCES.',
+        date: 'May 1, 2015'
+      },
+      {
+        title: 'Silver Medal',
+        description:
+          'This medal was awarded to me by FAST - NUCES for getting a CGPA of 3.9 in 2nd semester.',
+        date: 'May 1, 2014'
+      },
+      {
+        title: 'Speed Programming Battle',
+        description: 'Won speed programming battle which held at FAST - NUCES.',
+        date: 'Nov 1, 2013'
+      }
+    ]
+  },
+  {
+    short_title: 'VTU',
+    title: 'Visvesvaraya Technological University',
+    alt: 'Visvesvaraya Technological University',
+    role: "Bachelor of Engineering – Computer Science",
+    skills: ['Project Management', 'Innovation', 'Digtal','Marketing'],
+    period: '2007 - 2011',
+    startingYear: '2007',
+    logo: '/assets/images/logos/VTU.png',
     awards: [
       {
         title: 'Speed Programming Battle',
