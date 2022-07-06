@@ -151,10 +151,6 @@ const Home: React.FC<BlogPostProps> = (props) => {
               Currently in the United Kingdom 
             </Box>
           </Box>
-          <Box as="h2" fontSize="2xl" fontWeight="400" mt={5} textAlign="left">
-            This is my digital garden, where I write about the things I&apos;m
-            working on and share what I&apos;ve learned. 😊
-          </Box>
         </MotionFlex>
       </Flex>
 
@@ -176,7 +172,7 @@ const Home: React.FC<BlogPostProps> = (props) => {
       >
         <Box mt={10}>
           <ContentBox linkColor={linkColor} />
-          <PopularArticles posts={posts} />
+          {/* <PopularArticles posts={posts} /> */}
         </Box>
       </MotionBox>
     </Flex>
@@ -207,9 +203,12 @@ const ContentBox = ({ linkColor }) => {
         fromcolor="blue.400"
         tocolor="red.500"
       >
-        New year, new content:
+        Profile
       </Text>
-      <UnorderedList textAlign="left" paddingLeft={5} m={0}>
+      <Box as="h4" fontSize="18" fontWeight="400" mt={8} textAlign="justify">
+      10+ years experience in Software Engineering, developing products in the EdTech, Digital Automotive, and FinTech industries with an innate ability to quickly adapt to emerging technologies. I am studying MBA to improve my business skills, where I specialise in Innovation Management, Digital Business, and Project Management. I am considering transitioning into Product Management to leverage my technical expertise and business acumen.
+     </Box>
+      {/* <UnorderedList textAlign="left" paddingLeft={5} m={0}>
         {newContent.map((content, index) => (
           <ListItem key={index}>
             <NextLink href={content.link} passHref>
@@ -224,7 +223,7 @@ const ContentBox = ({ linkColor }) => {
             </NextLink>
           </ListItem>
         ))}
-      </UnorderedList>
+      </UnorderedList> */}
     </Stack>
   )
 }

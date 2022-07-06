@@ -4,7 +4,7 @@ export const companies = [
     alt: 'Visa image',
     role: 'Senior Cybersecurity Engineer',
     skills: ["JavaScript","Angular 8","SCSS","HTML5","Python","Node.js","Flask","Scripting","Ansible","D3.js","Elastic","Jira","Balsamiq"],
-    period: '2019 - Present',
+    period: '2019 - 2021',
     logo: '/assets/images/logos/visa.png'
   },
   {
@@ -29,7 +29,7 @@ export const companies = [
     role: 'Software Development Engineer',
     skills: ['JavaScript', 'ASP.Net', 'jQuery'],
     period: '2011 - 2018',
-    logo: '/assets/images/logos/Epiance.jpg'
+    logo: '/assets/images/logos/epiance.jpg'
   }
 ];
 
@@ -42,7 +42,7 @@ export const institutes = [
     skills: ['Project Management', 'Innovation', 'Digtal','Marketing'],
     period: '2021 - Present',
     startingYear: '2021',
-    logo: '/assets/images/logos/UoN.png',
+    logo: '/assets/images/logos/UoN.jpg',
     awards: [
       {
         title: 'Speed Programming Battle',
@@ -70,7 +70,7 @@ export const institutes = [
     skills: ['Project Management', 'Innovation', 'Digtal','Marketing'],
     period: '2007 - 2011',
     startingYear: '2007',
-    logo: '/assets/images/logos/VTU.png',
+    logo: '/assets/images/logos/vtu.jpg',
     awards: [
       {
         title: 'Speed Programming Battle',
