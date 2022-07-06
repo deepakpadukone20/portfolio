@@ -6,7 +6,8 @@ import {
   FiUsers,
   FiBarChart2,
 } from 'react-icons/fi'
-import { FaTools } from 'react-icons/fa'
+import { FaTools,FaPlane,FaShieldAlt } from 'react-icons/fa'
+import { BiWorld } from 'react-icons/bi'
 import { VStack, Heading, Box, Link, LinkProps } from '@chakra-ui/react'
 import { TimelineItem } from './Timeline'
 import { PageSlideFade } from 'components/shared/animations/page-transitions'
@@ -60,6 +61,30 @@ const Achievements = () => {
         </Header>
       </Box>
       <VStack textAlign="start" align="start" mb={5}>
+      <Box zIndex={5}>
+          <Heading fontSize="2xl" fontWeight="600" my={5}>
+            2022
+          </Heading>
+          <Box>
+            <TimelineItem icon={BiWorld}>
+              Learnt  Sustainable Decisions and Organisations - Worked on scenario based hypothetical Fashion Retail{' '}
+              <InternalLink color={linkColor} url="#" text={'WearingWell'} />
+              {' '} for the UK market. Served as Chief Sustainability Officer.
+            </TimelineItem>
+           
+            <TimelineItem icon={FiHome} skipTrail>
+              Rebuilt my portfolio with React, Next.JS, 
+              Vercel and ChakraUI {' '}
+              <ExternalLink
+                color={linkColor}
+                url="https://github.com/deepakpadukone20/portfolio"
+                text={'source on Github'}
+                target="_blank"
+              />
+              .
+            </TimelineItem>
+          </Box>
+        </Box>
         <Box zIndex={5}>
           <Heading fontSize="2xl" fontWeight="600" my={5}>
             2021
@@ -81,34 +106,49 @@ const Achievements = () => {
                 target="_blank"
               />
             </TimelineItem>
-            <TimelineItem icon={FiUsers}>Became a dad ❤️</TimelineItem>
+            <TimelineItem icon={FiUsers}>Started my MBA in {' '}
+            <ExternalLink
+                color={linkColor}
+                url="https://www.nottingham.ac.uk/"
+                text={'University of Nottingham'}
+                target="_blank"
+              />
+              </TimelineItem>
+              
             <TimelineItem icon={FiPackage}>
               Published 3 posts on my portfolio website{' '}
               <InternalLink color={linkColor} url="/blog" text={'Blog'} />
+            </TimelineItem>
+            <TimelineItem icon={FaPlane}>
+              Moved to the United Kingdom 🇬🇧
+            </TimelineItem>
+            <TimelineItem icon={FaShieldAlt}>
+              Resigned from Visa Bangalore
             </TimelineItem>
             <TimelineItem icon={FiPackage}>
               Published or contributed to{' '}
               <InternalLink
                 color={linkColor}
                 url="/open-source"
-                text={'20+ open-source repositories'}
+                text={'open-source'}
               />
             </TimelineItem>
             <TimelineItem icon={FiBarChart2}>
-              Collected 34k+ posts views and 1.5k+ total reactions on{' '}
+              CyberVision Dashboard for {' '}
               <ExternalLink
                 color={linkColor}
-                url="https://dev.to/m_ahmad"
-                text={'Dev.to'}
+                url="#"
+                text={'Visa'}
                 target="_blank"
               />
+              {' '} Cybersecurity was released
             </TimelineItem>
             <TimelineItem icon={FiHome} skipTrail>
-              Rebuilt my portfolio website with React, ChakraUI and
-              Framer-motion,{' '}
+              Rebuilt my portfolio PWA with React, Next.JS and 
+              Vercel,{' '}
               <ExternalLink
                 color={linkColor}
-                url="https://github.com/Deepakpadukone20/myPortfolio"
+                url="https://github.com/Deepakpadukone20/deepak-padukone"
                 text={'source on Github'}
                 target="_blank"
               />
@@ -131,15 +171,7 @@ const Achievements = () => {
                 target="_blank"
               />
             </TimelineItem>
-            <TimelineItem icon={FiBarChart2}>
-              Collected 650+ post views and 15+ total reactions on{' '}
-              <ExternalLink
-                color={linkColor}
-                url="https://dev.to/m_ahmad"
-                text={'Dev.to'}
-                target="_blank"
-              />
-            </TimelineItem>
+            
             <TimelineItem icon={FiHome} skipTrail>
               Built my portfolio website with React and ChakraUI,{' '}
               <ExternalLink

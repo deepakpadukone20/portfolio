@@ -21,20 +21,29 @@ import { newContent } from 'data/data'
 
 const ANIMATION_DURATION = 0.5
 const ORANGE = '#ff9400'
-const emojis = ['👋', '👍', '🖐']
+const emojis = ['👋', '👍', '🖐','👋', '👍', '🖐','🙏','🙇']
+const salutations = [ 'Hello','Halo','Hej','Ciao','Hola','ನಮಸ್ಕಾರ','नमस्कार']
 
 const Home: React.FC<BlogPostProps> = (props) => {
   const { posts } = props
   const linkColor = useLinkColor()
   const [showEmogi, setShowEmoji] = useState(false)
   const [emojiCounter, setEmojiCounter] = useState(-1)
+  const [salutationCounter, setSalutationCounter] = useState(0)
 
   useEffect(() => {
     const interval = setInterval(() => {
-      if (emojiCounter >= 3) setEmojiCounter(0)
+      if (emojiCounter >= emojis.length) setEmojiCounter(0)
     }, 500)
     return () => clearInterval(interval)
   }, [emojiCounter])
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (salutationCounter >= salutations.length) setSalutationCounter(0)
+    }, 50)
+    return () => clearInterval(interval)
+  }, [salutationCounter])
 
   return (
     <Flex direction="column" align="center">
@@ -60,7 +69,7 @@ const Home: React.FC<BlogPostProps> = (props) => {
               size={'2xl'}
               showBorder={true}
               borderColor={linkColor}
-              src={'https://avatars2.githubusercontent.com/u/37842853?v=4'}
+              src={'https://avatars.githubusercontent.com/u/2457624?v=4'}
             />
           </MotionBox>
         </MotionBox>
@@ -124,10 +133,11 @@ const Home: React.FC<BlogPostProps> = (props) => {
                 width="max-content"
                 onClick={() => {
                   setEmojiCounter((prevCounter) => prevCounter + 1)
+                  setSalutationCounter((prevCounter) => prevCounter + 1)
                   setShowEmoji(true)
                 }}
               >
-                Hej!
+                {salutations[salutationCounter]}
               </Header>
             </MotionBox>
           </Box>
@@ -135,20 +145,6 @@ const Home: React.FC<BlogPostProps> = (props) => {
             My name is{' '}
             <Box as="strong" fontWeight="600">
               Deepak
-            </Box>{' '}
-            and I&apos;m a{' '}
-            <Box as="span" whiteSpace="nowrap">
-              Full Stack Developer and
-            </Box>{' '}
-            <Box as="span" whiteSpace="nowrap">
-              Product Enthusiast&nbsp;
-            </Box>
-            from{' '}
-            <Box as="span" whiteSpace="nowrap">
-              India. {' '}
-            </Box>
-            <Box as="span" whiteSpace="nowrap">
-              Currently in the United Kingdom 
             </Box>
           </Box>
         </MotionFlex>
