@@ -42,7 +42,7 @@ export const institutes = [
     skills: ['Project Management', 'Innovation', 'Digtal','Marketing'],
     period: '2021 - Present',
     startingYear: '2021',
-    logo: '/assets/images/logos/UoN.jpg',
+    logo: '/assets/images/logos/uon.jpg',
     awards: [
       {
         title: 'Speed Programming Battle',
