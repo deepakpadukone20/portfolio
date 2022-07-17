@@ -48,31 +48,7 @@ const Home: React.FC<BlogPostProps> = (props) => {
   return (
     <Flex direction="column" align="center">
       <Flex direction={['column', 'column', 'row']}>
-        <MotionBox
-          opacity="0"
-          initial={{
-            translateX: -150,
-            opacity: 0,
-          }}
-          animate={{
-            translateX: 0,
-            opacity: 1,
-            transition: {
-              duration: ANIMATION_DURATION,
-            },
-          }}
-          m="auto"
-          mb={[16, 16, 'auto']}
-        >
-          <MotionBox whileHover={{ scale: 1.2 }} rounded="full" shadow="lg">
-            <Avatar
-              size={'2xl'}
-              showBorder={true}
-              borderColor={linkColor}
-              src={'https://avatars.githubusercontent.com/u/2457624?v=4'}
-            />
-          </MotionBox>
-        </MotionBox>
+      
         <MotionFlex
           position="relative"
           ml={['auto', 'auto', 16]}
@@ -141,12 +117,7 @@ const Home: React.FC<BlogPostProps> = (props) => {
               </Header>
             </MotionBox>
           </Box>
-          <Box as="h2" fontSize="2xl" fontWeight="400" textAlign="left">
-            My name is{' '}
-            <Box as="strong" fontWeight="600">
-              Deepak
-            </Box>
-          </Box>
+          
         </MotionFlex>
       </Flex>
 
@@ -199,11 +170,43 @@ const ContentBox = ({ linkColor }) => {
         fromcolor="blue.400"
         tocolor="red.500"
       >
-        Profile
+         My name is Deepak,
       </Text>
+      <MotionFlex
+          position="relative"
+          ml={['auto', 'auto', 16]}
+          m={['auto', 'initial']}
+          w={['100%']}
+          maxW="800px"
+          opacity="1"
+          justify="center"
+          direction="column"
+          initial={{
+            opacity: 0,
+            translateX: 150,
+          }}
+
+          animate={{
+            opacity: 1,
+            translateX: 0,
+            transition: {
+              duration: ANIMATION_DURATION,
+            },
+          }}
+         >
+           <Flex justify={'center'}>
+          <MotionBox  w={['max-content']} whileHover={{ scale: 1.2 }} rounded="full" shadow="lg">
+            <Avatar
+              size={'2xl'}
+              showBorder={true}
+              borderColor={linkColor}
+              src={'https://avatars.githubusercontent.com/u/2457624?v=4'}
+            />
+          </MotionBox></Flex>
       <Box as="h4" fontSize="18" fontWeight="400" mt={8} textAlign="justify">
-      10+ years experience in Software Engineering, developing products in the EdTech, Digital Automotive, and FinTech industries with an innate ability to quickly adapt to emerging technologies. I am studying MBA to improve my business skills, where I specialise in Innovation Management, Digital Business, and Project Management. I am considering transitioning into Product Management to leverage my technical expertise and business acumen.
+       I have 10+ years experience in Software Engineering, developing products in the EdTech, Digital Automotive, and FinTech industries with an innate ability to quickly adapt to emerging technologies. I am studying MBA to improve my business skills, where I specialise in Innovation Management, Digital Business, and Project Management. I am considering transitioning into Product Management to leverage my technical expertise and business acumen.
      </Box>
+     </MotionFlex>
       {/* <UnorderedList textAlign="left" paddingLeft={5} m={0}>
         {newContent.map((content, index) => (
           <ListItem key={index}>

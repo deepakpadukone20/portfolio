@@ -98,7 +98,7 @@ export const skillsArray = [
     description: 'Web development',
     link: 'https://angular.io/',
     type: 'development',
-    image: '/assets/images/skills/rails.png'
+    image: '/assets/images/skills/angular.png'
   },
   {
     name: 'React',
