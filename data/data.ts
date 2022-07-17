@@ -20,7 +20,7 @@ export const companies = [
     alt: 'Brainplow image',
     role: 'Software Engineer',
     skills: ['javascript', 'python', 'angular'],
-    period: '2017 - 2018',
+    period: '2014 - 2015',
     logo: '/assets/images/logos/Ness.jpg'
   },
   {
@@ -28,7 +28,7 @@ export const companies = [
     alt: 'Epaince image',
     role: 'Software Development Engineer',
     skills: ['JavaScript', 'ASP.Net', 'jQuery'],
-    period: '2011 - 2018',
+    period: '2011 - 2014',
     logo: '/assets/images/logos/epiance.jpg'
   }
 ];
@@ -38,7 +38,7 @@ export const institutes = [
     short_title: 'NUBS',
     title: 'University of Nottingham Business School',
     alt: 'University of Nottingham',
-    role: "Master of Business Adminstration",
+    role: "Master of Business Administration",
     skills: ['Project Management', 'Innovation', 'Digtal','Marketing'],
     period: '2021 - Present',
     startingYear: '2021',
@@ -94,9 +94,9 @@ export const institutes = [
 
 export const skillsArray = [
   {
-    name: 'Ruby on Rails',
+    name: 'Angular',
     description: 'Web development',
-    link: 'https://rubyonrails.org/',
+    link: 'https://angular.io/',
     type: 'development',
     image: '/assets/images/skills/rails.png'
   },
@@ -107,20 +107,7 @@ export const skillsArray = [
     type: 'development',
     image: '/assets/images/skills/react.png'
   },
-  {
-    name: 'Ruby',
-    description: 'Web development, scrapping',
-    link: 'https://www.ruby-lang.org/en/',
-    type: 'development',
-    image: '/assets/images/skills/ruby.png'
-  },
-  {
-    name: 'Python',
-    description: 'Web development, scrapping',
-    link: 'https://www.python.org/',
-    type: 'development',
-    image: '/assets/images/skills/python.png'
-  },
+
   {
     name: 'Javascript',
     description: 'Web development',
@@ -136,18 +123,32 @@ export const skillsArray = [
     image: '/assets/images/skills/typescript.png'
   },
   {
-    name: 'Html5',
+    name: 'HTML5',
     description: 'Web layouts',
     link: 'https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5',
     type: 'development',
     image: '/assets/images/skills/html-5.png'
   },
   {
-    name: 'Css3',
+    name: 'CSS3',
     description: 'Web design',
     link: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
     type: 'design',
     image: '/assets/images/skills/css3.png'
+  },
+  {
+    name: 'Python',
+    description: 'Web development, scrapping',
+    link: 'https://www.python.org/',
+    type: 'development',
+    image: '/assets/images/skills/python.png'
+  },
+  {
+    name: 'Java',
+    description: 'Web development',
+    link: 'https://www.java.com/en/',
+    type: 'development',
+    image: '/assets/images/skills/java.png'
   },
   {
     name: 'Bootstrap',
@@ -157,14 +158,14 @@ export const skillsArray = [
     image: '/assets/images/skills/bootstrap.png'
   },
   {
-    name: 'Postgres',
+    name: 'SQL',
     description: 'Database',
-    link: 'https://www.postgresql.org/',
+    link: 'https://azure.microsoft.com/en-in/services/virtual-machines/sql-server/',
     type: 'database',
-    image: '/assets/images/skills/postgresql.png'
+    image: '/assets/images/skills/mssql.png'
   },
   {
-    name: 'Mysql',
+    name: 'MySQL',
     description: 'Database',
     link: 'https://www.mysql.com/',
     type: 'database',
@@ -185,18 +186,18 @@ export const skillsArray = [
     image: '/assets/images/skills/heroku.png'
   },
   {
-    name: 'AWS',
+    name: 'GCP',
     description: 'Devops',
-    link: 'https://aws.amazon.com/',
+    link: 'https://cloud.google.com/gcp',
     type: 'devops',
-    image: 'assets/images/skills/aws.png'
+    image: 'assets/images/skills/gcp.png'
   },
   {
-    name: 'Digital Ocean',
+    name: 'Ansible',
     description: 'Devops',
-    link: 'https://www.digitalocean.com/',
+    link: 'https://www.ansible.com/',
     type: 'devops',
-    image: '/assets/images/skills/digital-ocean.png'
+    image: '/assets/images/skills/ansible.png'
   },
   {
     name: 'Nginx',
@@ -213,11 +214,11 @@ export const skillsArray = [
     image: '/assets/images/skills/vscode.png'
   },
   {
-    name: 'Figma',
+    name: 'Balsamiq',
     description: 'Collaborative Design',
     link: 'https://www.figma.com/',
     type: 'design',
-    image: '/assets/images/skills/figma.png'
+    image: '/assets/images/skills/balsamiq.webp'
   }
 ];
 

@@ -78,7 +78,7 @@ const TechStack: NextPage<SkillProps> = ({ skills }) => {
                 maxW="lg"
                 textAlign="center"
               >
-                A list of my favorite tools and technologies that I use on a regular basis.
+                A list of my favorite tools and technologies that I have used so far in my professional career.
               </Text>
             </VStack>
           </Section>
