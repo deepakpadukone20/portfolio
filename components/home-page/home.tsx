@@ -200,7 +200,7 @@ const ContentBox = ({ linkColor }) => {
               size={'2xl'}
               showBorder={true}
               borderColor={linkColor}
-              src={'https://avatars.githubusercontent.com/u/2457624?v=4'}
+              src={'/assets/images/user_icon.png'}
             />
           </MotionBox></Flex>
       <Box as="h4" fontSize="18" fontWeight="400" mt={8} textAlign="justify">
