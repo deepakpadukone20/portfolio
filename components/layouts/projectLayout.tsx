@@ -182,7 +182,7 @@ const LeftProjectLayoutLarge = ({ project }) => {
       <MotionBox
         initial="initial"
         animate="animate"
-        width="40%"
+        width="60%"
         rounded="lg"
         my="auto"
         zIndex="10"
@@ -264,7 +264,7 @@ const RightProjectLayoutLarge = ({ project }) => {
       <MotionBox
         initial="initial"
         animate="animate"
-        width="40%"
+        width="60%"
         rounded="lg"
         my="auto"
         zIndex="10"

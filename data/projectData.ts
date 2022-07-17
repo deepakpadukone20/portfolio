@@ -1,65 +1,49 @@
 export const projectsList = [
-  // {
-  //   title: 'TemplatesKart',
-  //   imageLight: '/assets/images/projects/cover/templateskart.png',
-  //   blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
-  //   site: 'https://templateskart.com',
-  //   gitHub: 'https://github.com/Deepakpadukone20/templatesKart',
-  //   description:
-  //     'TemplatesKart provides the best Chakra UI templates. Production-ready hand crafted Projects and Components built on top of ChakraUI.',
-  //   techStack: ['React', 'Nextjs', 'ChakraUI']
-  // },
-  // {
-  //   title: 'Smata',
-  //   imageLight: '/assets/images/projects/cover/smata.png',
-  //   blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
-  //   site: 'https://smata.com/',
-  //   description:
-  //     'SMATA IS AN ALL-IN-ONE CLOUD-BASED SOLUTION, INTEGRATING MANAGEMENT, COMMUNICATION & ACCOUNTING FUNCTIONS.',
-  //   techStack: ['Rails', 'React', 'Javascript']
-  // },
-  // {
-  //   title: 'Peterpitch',
-  //   imageLight: '/assets/images/projects/cover/peterpitch.png',
-  //   blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
-  //   site: 'https://peterpitch.com/',
-  //   description:
-  //     'Peterpitch is a tool that takes the fun in your company seriously and turns your meetings into real performance boosters.',
-  //   techStack: ['Rails', 'React', 'Javascript']
-  // },
-  // {
-  //   title: 'Notch',
-  //   site: 'https://www.hellonotch.com/',
-  //   imageLight: '/assets/images/projects/cover/notch.png',
-  //   blurHash: 'L0Aer?tjH[tPyAayj[j[00ay%xkB',
-  //   description:
-  //     'This is a project management website for design and procurement teams. It helps to collaborate and manage all of your floor plans in one place.',
-  //   techStack: ['Rails', 'Javascript']
-  // },
-  // {
-  //   title: 'Workof Ecommerce',
-  //   imageLight: '/assets/images/projects/cover/workof.png',
-  //   blurHash: 'L2M5%%0000EN00I:-oIp00kC?^sl',
-  //   site: 'https://workof.com/',
-  //   description:
-  //     'This is an Ecommerce furniture site. It provides a single platform to multiple vendors where they can put their products on sale.',
-  //   techStack: ['Rails', 'Javascript']
-  // },
-  // {
-  //   title: 'Souq of Qatar',
-  //   imageLight: '/assets/images/projects/cover/souq.png',
-  //   blurHash: 'L1O^uE0679I00AGT?.H{00y7p2tK',
-  //   site: 'https://www.souqofqatar.com/',
-  //   description:
-  //     'Souq of Qatar is online comparison website. This website is independent of any retailers, it displays the products of all the major stores.',
-  //   techStack: ['Rails', 'Javascript']
-  // },
-  // {
-  //   title: 'GoSave',
-  //   imageLight: '/assets/images/projects/cover/gosave.png',
-  //   blurHash: 'L09sWSxdH;s?%6axWAfk00V?%jax',
-  //   site: 'https://gosavehq.com/',
-  //   description: `The GoSave app let's you send allowances, assign chores, and approve spending all from your smartphone.`,
-  //   techStack: ['Rails']
-  // }
+  {
+    title: 'CyberVision',
+    imageLight: '/assets/images/projects/cover/visa.png',
+    blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
+   // site: 'https://templateskart.com',
+   // gitHub: 'https://github.com/Deepakpadukone20/templatesKart',
+    description:' Visualize the security posture of Visa Cybersecurity, collated API data of multiple security tools like Forcepoint, McAfee Total Protection, Sentinel One, Microsoft Defender for Endpoint, Carbon Black, Tanium, Netskope, Invincea, Activ Client, etc. Exposed to RedHat Ansible, Splunk, ELK stack (Elasticsearch, Logstash, Kibana).',
+         techStack: ['Angular 8', 'Flask', 'Python','MySQL']
+  },
+  {
+    title: 'Enterprise Data Catalog',
+    imageLight: '/assets/images/projects/cover/informatica.jpeg',
+    blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
+    site: 'https://www.informatica.com/products/data-catalog/enterprise-data-catalog.html',
+    description:
+      'Amazing AI powered data catalog to scan all assets across your business enterprise. Has a wide variety of features to use to index metadata and provide detailed analysis across Databases. Helps you to organize and manage all data and enrich metadata support and governance processes',
+    techStack: ['React', 'Java', 'D3.js','Apache Spark']
+  },
+  {
+    title: 'Enterprise Data Catalog- Chrome Extension',
+    imageLight: '/assets/images/projects/cover/EDC.jpeg',
+    blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
+    site: 'https://chrome.google.com/webstore/detail/enterprise-data-catalog-p/ehmlceddjeepgfiimoofdnkblnkhojbh',
+    description:
+      'EDC Discover™ Plugin intends to link reports to Objects in Enterprise Data Catalog. By giving a link to see specific information on Same Report screen as a pop over. '
+      ,
+      techStack: ['Chrome APIs', 'React', 'Javascript','HTML']
+  },
+  {
+    title: 'Dealer Management System',
+    site: 'https://www.cdkglobal.com/dms',
+    imageLight: '/assets/images/projects/cover/ness.png',
+    blurHash: 'L0Aer?tjH[tPyAayj[j[00ay%xkB',
+    description:
+     'A Dealer Management System (DMS) is a software suite that provides the tools auto dealers need to more effectively run their business. By bringing together the many parts of a dealership on a single interface, DMS platforms allow business owners to monitor dealership operations more efficiently and see the big picture more clearly.' , 
+      techStack: ['HTML', 'CSS3', 'Javascript','Java']
+  },
+  {
+    title: 'Epiplex Content Management System',
+    imageLight: '/assets/images/projects/cover/epiplex.png',
+    blurHash: 'L2M5%%0000EN00I:-oIp00kC?^sl',
+    site: 'https://www.epiplex500.com/products/contentmanagement.htm',
+    description:
+      'Epiplex Content Management is a portal-based digital learning platform used to publish role-based learning content and track its usage. The Content management portal enables the users to effectively complete their process learning remotely in a virtual environment.'
+      ,
+    techStack: ['ASP.net', 'Javascript','HTML','CSS']
+  }
 ];
