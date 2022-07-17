@@ -30,7 +30,7 @@ const Meta = ({ title, keywords, description, image }: Props): JSX.Element => {
 
 Meta.defaultProps = {
   title: 'Deepak Padukone Manjunath- Full Stack Developer',
-  keywords: 'web development, programming, web design, react js, next js',
+  keywords: 'web developer, full stack, react.js, next.js',
   description: 'Software Engineer. Web, Cybersecurity and OpenSource.',
   image: SEO_IMAGE
 };

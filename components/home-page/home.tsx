@@ -207,7 +207,7 @@ const ContentBox = ({ linkColor }) => {
        I have 10+ years experience in Software Engineering, developing products in the EdTech, Digital Automotive, and FinTech industries with an innate ability to quickly adapt to emerging technologies. I am studying MBA to improve my business skills, where I specialise in Innovation Management, Digital Business, and Project Management. I am considering transitioning into Product Management to leverage my technical expertise and business acumen.
      </Box>
      </MotionFlex>
-      {/* <UnorderedList textAlign="left" paddingLeft={5} m={0}>
+      <UnorderedList textAlign="left" paddingLeft={5} m={0}>
         {newContent.map((content, index) => (
           <ListItem key={index}>
             <NextLink href={content.link} passHref>
@@ -222,7 +222,7 @@ const ContentBox = ({ linkColor }) => {
             </NextLink>
           </ListItem>
         ))}
-      </UnorderedList> */}
+      </UnorderedList>
     </Stack>
   )
 }

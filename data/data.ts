@@ -224,17 +224,17 @@ export const skillsArray = [
 
 export const newContent = [
   {
-    link: '/blog/free-12-new-chakra-ui-components-templateskart',
-    text: 'Free 12 new Chakra UI components - TemplatesKart',
+    link: '/blog/project-management',
+    text: 'Project Management | MBA Module',
     showNewTag: true
   },
   {
-    link: '/blog/templateskart-free-chakra-ui-components-and-projects',
-    text: 'TemplatesKart | Free Chakra UI Components and Projects',
+    link: '/blog/sustainable-decisions-and-organisations copy',
+    text: 'Sustainable Decisions and Organisations | MBA Module', 
     showNewTag: true
   },
   {
-    link: '/blog/started-2022-by-updating-portfolio-website-1jde-temp-slug-4553258',
-    text: 'Started 2022 by updating portfolio website'
+    link: '/blog/vegetarianism',
+    text: 'Vegetarianism'
   }
 ];
