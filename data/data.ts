@@ -3,7 +3,7 @@ export const companies = [
     title: 'Visa Inc',
     alt: 'Visa image',
     role: 'Senior Cybersecurity Engineer',
-    skills: ["JavaScript","Angular 8","SCSS","HTML5","Python","Node.js","Flask","Scripting","Ansible","D3.js","Elastic","Jira","Balsamiq"],
+    skills: ["JavaScript","Angular 8","Python","Node.js","Flask","D3.js","Elastic","Jira","Balsamiq"],
     period: '2019 - 2021',
     logo: '/assets/images/logos/visa.png'
   },
@@ -11,7 +11,7 @@ export const companies = [
     title: 'Informatica Inc',
     alt: 'Informatica image',
     role: 'Senior Software Engineer',
-    skills: ['Angular 10','Java', 'Apace Spark', 'JavaScript', 'React 16', 'Elastic'],
+    skills: ['Angular 10','Java', "SCSS","HTML5",'Apace Spark', 'JavaScript', 'React 16', 'Elastic'],
     period: '2015 - 2019',
     logo: '/assets/images/logos/informatica.png'
   },
