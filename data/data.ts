@@ -12,7 +12,7 @@ export const companies = [
     alt: 'Informatica image',
     role: 'Senior Software Engineer',
     skills: ['Angular 10','Java', 'Apace Spark', 'JavaScript', 'React 16', 'Elastic'],
-    period: '2018 - 2019',
+    period: '2015 - 2019',
     logo: '/assets/images/logos/informatica.png'
   },
   {
