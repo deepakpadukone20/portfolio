@@ -58,7 +58,7 @@ const ProjectLayoutMed = ({ project }) => {
       <MotionBox
         initial="initial"
         animate="animate"
-        width={['full', '70%']}
+        width={['full', '100%']}
         rounded="lg"
         my="auto"
         px="6"
